@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Parafiksit Web Interface</title>
+        <link rel="stylesheet" type="text/css" href="css/agency.css" />
+    </h:head>
+    <h:body class="bg-darkest-gray">
+        <div align="center" class="bg-light-gray">
+            <h3>
+                Parafiksit Web Interface
+            </h3>
+            <p>
+                <h:form>
+                    <table>
+                        <tr>
+                            <td><h:outputLabel for="clientName" value="Client: " /></td>
+                            <td><h:inputText id="clientName" value="#{beanName.offerRequest.clientName}" /></td>
+                        </tr>
+
+                        <tr><td><b>Contactpersoon</b></td></tr>
+                        <tr>
+                            <td><h:outputLabel for="firstName" value="Voornaam: " /></td>
+                            <td><h:inputText id="firstName" value="#{beanName.offerRequest.firstName}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="lastName" value="Achternaam: " /></td>
+                            <td><h:inputText id="lastName" value="#{beanName.offerRequest.lastName}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="phone" value="Telefoon: " /></td>
+                            <td><h:inputText id="phone" value="#{beanName.offerRequest.phone}" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Afleveradres</b><br /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="street" value="Straat: " /></td>
+                            <td><h:inputText id="street" value="#{beanName.offerRequest.street}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="number" value="Nummer: " /></td>
+                            <td><h:inputText id="number" value="#{beanName.offerRequest.houseNumber}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="city" value="Plaats: " /></td>
+                            <td><h:inputText id="city" value="#{beanName.offerRequest.city}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="zipcode" value="Postcode: " /></td>
+                            <td><h:inputText id="zipcode" value="#{beanName.offerRequest.zipcode}" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Opdracht</b><br /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="operationDescriptions" value="Verrichtingen: " /></td>
+                            <td><h:inputText id="operationDescriptions" value="#{beanName.offerRequest.opperations}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="partNames" value="Onderdelen " /></td>
+                            <td><h:inputText id="partNames" value="#{beanName.offerRequest.parts}" /></td>
+                        </tr>
+                        <tr>
+                            <td><h:outputLabel for="comments" value="Opmerkingen (optioneel): " /></td>
+                            <td><h:inputText id="comments" value="#{beanName.offerRequest.comments}" /></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td><h:commandButton class="btn-primary" action="#{beanName.sendMessage()}" value="Order verzenden" /></td>
+                        </tr>
+                    </table>
+                </h:form>
+            </p>
+        </div>
+    </h:body>
+</html>
