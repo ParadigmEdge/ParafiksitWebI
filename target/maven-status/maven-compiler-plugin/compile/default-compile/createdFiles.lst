@@ -1,8 +1,8 @@
-Domain\ShippingAddres.class
-Domain\Parts.class
-Domain\WorkPerformedInfo.class
-Domain\Order.class
-JMS\BroakerMessageCreator.class
-Domain\ContactPersoon.class
-Domain\PartInfo.class
 JMS\JmsMessageSender.class
+Domain\ContactPersoon.class
+Domain\WorkPerformedInfo.class
+JMS\BroakerMessageCreator.class
+Domain\Parts.class
+Domain\PartInfo.class
+Domain\ShippingAddres.class
+Domain\Order.class

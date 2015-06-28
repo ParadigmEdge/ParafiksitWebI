@@ -1,8 +1,11 @@
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\ShippingAddres.java
+D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\BroakerCost.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\WorkPerformedInfo.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\Order.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\Parts.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\JMS\JmsMessageSender.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\ContactPersoon.java
+D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\OrderInvoice.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\PartInfo.java
+D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\Domain\CorrectOrderInvoice.java
 D:\Fontys ICT\Periode 11 en 12 enterprise_applications\PTSE6 Parafixit app\ParafiksitApp\ParafiksitWebIGit\src\main\java\JMS\BroakerMessageCreator.java
