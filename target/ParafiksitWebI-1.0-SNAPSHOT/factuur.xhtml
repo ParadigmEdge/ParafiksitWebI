@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Parafiksit Web Interface</title>
+        <link rel="stylesheet" type="text/css" href="css/agency.css" />
+    </h:head>
+    <h:body class="bg-darkest-gray">
+        <div align="center" class="bg-light-gray">
+            <h3>
+                Parafiksit Web Interface
+            </h3>
+            <p>
+                <h:form>
+                    <table>
+                        <tr>
+                            <td>Client: </td>
+                            <td><h:outputText value="#{beanName.reply.clientName}" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Adres</b><br /></td>
+                        </tr>
+                        <tr>
+                            <td>Straat: </td>
+                            <td><h:outputText value="#{beanName.reply.street}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Nummer: </td>
+                            <td><h:outputText value="#{beanName.reply.houseNumber}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Plaats: </td>
+                            <td><h:outputText value="#{beanName.reply.city}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Postcode:</td>
+                            <td><h:outputText value="#{beanName.reply.zipcode}" /></td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <td>Beschrijving: </td>
+                        </tr>
+                        <tr>
+                            <td><h:outputText value="#{beanName.reply.description}" /></td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <td><b>Onderdelen: </b></td>
+                            <td>
+                                <h:selectOneMenu>
+                                    <f:selectItems value="#{bean.reply.parts}" />
+                                </h:selectOneMenu>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Totale kosten onderdelen: </td>
+                            <td><h:outputText value="#{beanName.reply.totalCostsParts}" /></td>
+                        </tr>
+                    </table><br />
+                    <table>
+                        <tr>
+                            <td><b>Werk: </b></td>
+                            <td>
+                                <h:selectOneMenu>
+                                    <f:selectItems value="#{bean.reply.work}" />
+                                </h:selectOneMenu>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Totale kosten werk: </td>
+                            <td><h:outputText value="#{beanName.reply.totalCostsWork}" /></td>
+                        </tr>
+                    </table><br />                    
+                    <table>
+                        <tr>
+                            <td>TOTALE KOSTEN: </td>
+                            <td><h:outputText value="#{beanName.reply.totalCost}" /></td>
+                        </tr>
+                    </table>
+                </h:form>
+            </p>
+        </div>
+    </h:body>
+</html>
